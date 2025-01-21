@@ -99,7 +99,7 @@ class NewAddressPage extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Text("Zip Code"),
+                        const Text("Zip Codes"),
                         const SizedBox(height: 8),
                         TextFormField(
                           keyboardType: TextInputType.number,
