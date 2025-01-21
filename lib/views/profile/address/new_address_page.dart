@@ -34,7 +34,7 @@ class NewAddressPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               /* <----  Full Name -----> */
-              const Text("Full Name"),
+              const Text("Full Names"),
               const SizedBox(height: 8),
               TextFormField(
                 keyboardType: TextInputType.text,
