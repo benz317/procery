@@ -27,15 +27,15 @@ class BundleTileSquare extends StatelessWidget {
           width: 176,
           padding: const EdgeInsets.symmetric(horizontal: AppDefaults.padding),
           decoration: BoxDecoration(
-            border: Border.all(width: 0.1, color: AppColors.placeholder),
-            borderRadius: AppDefaults.borderRadius,
-            color: Colors.pink
-          ),
+              border: Border.all(width: 0.1, color: AppColors.placeholder),
+              borderRadius: AppDefaults.borderRadius,
+              color: Colors.pink),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: AspectRatio(
                   aspectRatio: 1 / 1,
                   child: NetworkImageWithLoader(
